@@ -57,10 +57,9 @@ function openLink(value) {
     }
     if (value == "rules") {
         window.location.href = "rules.html";
-        
-        
-        || value == "whitelist") {
-        alert('Not Implemented yet!')
+    }
+    if (value == "whitelist") {
+        window.location.href = "whitelist.html";
     }
 }
 
